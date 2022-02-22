@@ -1,1 +1,23 @@
-*pyc
+# cache files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*$py.class
+
+# packaging
+.Python
+build/
+sdist/
+downloads/
+wheels/
+*.whl
+.installed.cfg
+MANIFEST
+*.egg-info/
+
+instance/
+dist/
+.pytest_cache/
+htmlcov/
+.coverage
